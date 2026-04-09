@@ -1,0 +1,12 @@
+{
+  "name": "smart-contract-reader",
+  "version": "1.0.0",
+  "price_usdc": 1.50,
+  "category": "Blockchain",
+  "inputs": {
+    "contractAddress": { "type": "string", "required": true },
+    "chain": { "type": "string", "required": false, "default": "ethereum" }
+  },
+  "supported_chains": ["ethereum", "polygon", "bsc"],
+  "dependencies": { "axios": "^1.6.0" }
+}
